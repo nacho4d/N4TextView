@@ -26,6 +26,21 @@
 		9A8D99EA13E55A8E002255C3 /* N4TextRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99E913E55A8E002255C3 /* N4TextRange.m */; };
 		9A8D99ED13E55B5C002255C3 /* N4TextPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99EC13E55B5C002255C3 /* N4TextPosition.m */; };
 		9A8D99F013E55DA2002255C3 /* N4LoupeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99EF13E55DA2002255C3 /* N4LoupeView.m */; };
+		9AEFD63B13E5EB4F00EED132 /* N4TextPositionHandleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD63613E5EB4F00EED132 /* N4TextPositionHandleView.m */; };
+		9AEFD63C13E5EB4F00EED132 /* N4CoreTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD63813E5EB4F00EED132 /* N4CoreTextViewInternal.m */; };
+		9AEFD63D13E5EB4F00EED132 /* N4CoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD63A13E5EB4F00EED132 /* N4CoreTextView.m */; };
+		9AEFD64313E5ECC400EED132 /* NSRangeEntensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD64013E5ECC400EED132 /* NSRangeEntensions.m */; };
+		9AEFD64413E5ECC400EED132 /* CALayer+helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD64213E5ECC400EED132 /* CALayer+helpers.m */; };
+		9AEFD64E13E5ED2600EED132 /* N4Caret.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD64613E5ED2600EED132 /* N4Caret.png */; };
+		9AEFD64F13E5ED2600EED132 /* RTKCaretLoupe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD64713E5ED2600EED132 /* RTKCaretLoupe.png */; };
+		9AEFD65013E5ED2600EED132 /* RTKCaretLoupeMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD64813E5ED2600EED132 /* RTKCaretLoupeMask.png */; };
+		9AEFD65113E5ED2600EED132 /* RTKSelectionHandle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD64913E5ED2600EED132 /* RTKSelectionHandle.png */; };
+		9AEFD65213E5ED2600EED132 /* RTKSelectionHandleEnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD64A13E5ED2600EED132 /* RTKSelectionHandleEnd.png */; };
+		9AEFD65313E5ED2600EED132 /* RTKSelectionHandleStart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD64B13E5ED2600EED132 /* RTKSelectionHandleStart.png */; };
+		9AEFD65413E5ED2600EED132 /* RTKSelectionLoupe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD64C13E5ED2600EED132 /* RTKSelectionLoupe.png */; };
+		9AEFD65513E5ED2600EED132 /* RTKSelectionLoupeMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD64D13E5ED2600EED132 /* RTKSelectionLoupeMask.png */; };
+		9AEFD65713E5EE0B00EED132 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEFD65613E5EE0B00EED132 /* CoreText.framework */; };
+		9AEFD65913E5EE1600EED132 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEFD65813E5EE1600EED132 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +80,26 @@
 		9A8D99EC13E55B5C002255C3 /* N4TextPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N4TextPosition.m; sourceTree = "<group>"; };
 		9A8D99EE13E55DA2002255C3 /* N4LoupeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N4LoupeView.h; sourceTree = "<group>"; };
 		9A8D99EF13E55DA2002255C3 /* N4LoupeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N4LoupeView.m; sourceTree = "<group>"; };
+		9AEFD63513E5EB4F00EED132 /* N4TextPositionHandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N4TextPositionHandleView.h; sourceTree = "<group>"; };
+		9AEFD63613E5EB4F00EED132 /* N4TextPositionHandleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N4TextPositionHandleView.m; sourceTree = "<group>"; };
+		9AEFD63713E5EB4F00EED132 /* N4CoreTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N4CoreTextViewInternal.h; sourceTree = "<group>"; };
+		9AEFD63813E5EB4F00EED132 /* N4CoreTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N4CoreTextViewInternal.m; sourceTree = "<group>"; };
+		9AEFD63913E5EB4F00EED132 /* N4CoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N4CoreTextView.h; sourceTree = "<group>"; };
+		9AEFD63A13E5EB4F00EED132 /* N4CoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N4CoreTextView.m; sourceTree = "<group>"; };
+		9AEFD63F13E5ECC400EED132 /* NSRangeEntensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRangeEntensions.h; sourceTree = "<group>"; };
+		9AEFD64013E5ECC400EED132 /* NSRangeEntensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRangeEntensions.m; sourceTree = "<group>"; };
+		9AEFD64113E5ECC400EED132 /* CALayer+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+helpers.h"; sourceTree = "<group>"; };
+		9AEFD64213E5ECC400EED132 /* CALayer+helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+helpers.m"; sourceTree = "<group>"; };
+		9AEFD64613E5ED2600EED132 /* N4Caret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N4Caret.png; sourceTree = "<group>"; };
+		9AEFD64713E5ED2600EED132 /* RTKCaretLoupe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RTKCaretLoupe.png; sourceTree = "<group>"; };
+		9AEFD64813E5ED2600EED132 /* RTKCaretLoupeMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RTKCaretLoupeMask.png; sourceTree = "<group>"; };
+		9AEFD64913E5ED2600EED132 /* RTKSelectionHandle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RTKSelectionHandle.png; sourceTree = "<group>"; };
+		9AEFD64A13E5ED2600EED132 /* RTKSelectionHandleEnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RTKSelectionHandleEnd.png; sourceTree = "<group>"; };
+		9AEFD64B13E5ED2600EED132 /* RTKSelectionHandleStart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RTKSelectionHandleStart.png; sourceTree = "<group>"; };
+		9AEFD64C13E5ED2600EED132 /* RTKSelectionLoupe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RTKSelectionLoupe.png; sourceTree = "<group>"; };
+		9AEFD64D13E5ED2600EED132 /* RTKSelectionLoupeMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RTKSelectionLoupeMask.png; sourceTree = "<group>"; };
+		9AEFD65613E5EE0B00EED132 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		9AEFD65813E5EE1600EED132 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AEFD65913E5EE1600EED132 /* QuartzCore.framework in Frameworks */,
+				9AEFD65713E5EE0B00EED132 /* CoreText.framework in Frameworks */,
 				9A8D99AE13E54E1A002255C3 /* UIKit.framework in Frameworks */,
 				9A8D99B013E54E1A002255C3 /* Foundation.framework in Frameworks */,
 				9A8D99B213E54E1A002255C3 /* CoreGraphics.framework in Frameworks */,
@@ -114,6 +151,8 @@
 		9A8D99AC13E54E1A002255C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AEFD65813E5EE1600EED132 /* QuartzCore.framework */,
+				9AEFD65613E5EE0B00EED132 /* CoreText.framework */,
 				9A8D99AD13E54E1A002255C3 /* UIKit.framework */,
 				9A8D99AF13E54E1A002255C3 /* Foundation.framework */,
 				9A8D99B113E54E1A002255C3 /* CoreGraphics.framework */,
@@ -125,7 +164,7 @@
 		9A8D99B313E54E1A002255C3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				9A8D99E713E55A44002255C3 /* New Group */,
+				9A8D99E713E55A44002255C3 /* N4TextView */,
 				9A8D99BC13E54E1A002255C3 /* AppDelegate.h */,
 				9A8D99BD13E54E1A002255C3 /* AppDelegate.m */,
 				9A8D99BF13E54E1A002255C3 /* MainWindow.xib */,
@@ -168,17 +207,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9A8D99E713E55A44002255C3 /* New Group */ = {
+		9A8D99E713E55A44002255C3 /* N4TextView */ = {
 			isa = PBXGroup;
 			children = (
+				9AEFD65A13E5EEB600EED132 /* Utilities */,
+				9AEFD64513E5ED1400EED132 /* Images */,
 				9A8D99EE13E55DA2002255C3 /* N4LoupeView.h */,
 				9A8D99EF13E55DA2002255C3 /* N4LoupeView.m */,
 				9A8D99E813E55A8E002255C3 /* N4TextRange.h */,
 				9A8D99E913E55A8E002255C3 /* N4TextRange.m */,
 				9A8D99EB13E55B5C002255C3 /* N4TextPosition.h */,
 				9A8D99EC13E55B5C002255C3 /* N4TextPosition.m */,
+				9AEFD63513E5EB4F00EED132 /* N4TextPositionHandleView.h */,
+				9AEFD63613E5EB4F00EED132 /* N4TextPositionHandleView.m */,
+				9AEFD63713E5EB4F00EED132 /* N4CoreTextViewInternal.h */,
+				9AEFD63813E5EB4F00EED132 /* N4CoreTextViewInternal.m */,
+				9AEFD63913E5EB4F00EED132 /* N4CoreTextView.h */,
+				9AEFD63A13E5EB4F00EED132 /* N4CoreTextView.m */,
 			);
-			name = "New Group";
+			name = N4TextView;
+			sourceTree = "<group>";
+		};
+		9AEFD64513E5ED1400EED132 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9AEFD64613E5ED2600EED132 /* N4Caret.png */,
+				9AEFD64713E5ED2600EED132 /* RTKCaretLoupe.png */,
+				9AEFD64813E5ED2600EED132 /* RTKCaretLoupeMask.png */,
+				9AEFD64913E5ED2600EED132 /* RTKSelectionHandle.png */,
+				9AEFD64A13E5ED2600EED132 /* RTKSelectionHandleEnd.png */,
+				9AEFD64B13E5ED2600EED132 /* RTKSelectionHandleStart.png */,
+				9AEFD64C13E5ED2600EED132 /* RTKSelectionLoupe.png */,
+				9AEFD64D13E5ED2600EED132 /* RTKSelectionLoupeMask.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9AEFD65A13E5EEB600EED132 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9AEFD63F13E5ECC400EED132 /* NSRangeEntensions.h */,
+				9AEFD64013E5ECC400EED132 /* NSRangeEntensions.m */,
+				9AEFD64113E5ECC400EED132 /* CALayer+helpers.h */,
+				9AEFD64213E5ECC400EED132 /* CALayer+helpers.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +324,14 @@
 				9A8D99B813E54E1A002255C3 /* InfoPlist.strings in Resources */,
 				9A8D99C113E54E1A002255C3 /* MainWindow.xib in Resources */,
 				9A8D99C713E54E1A002255C3 /* N4TextViewController.xib in Resources */,
+				9AEFD64E13E5ED2600EED132 /* N4Caret.png in Resources */,
+				9AEFD64F13E5ED2600EED132 /* RTKCaretLoupe.png in Resources */,
+				9AEFD65013E5ED2600EED132 /* RTKCaretLoupeMask.png in Resources */,
+				9AEFD65113E5ED2600EED132 /* RTKSelectionHandle.png in Resources */,
+				9AEFD65213E5ED2600EED132 /* RTKSelectionHandleEnd.png in Resources */,
+				9AEFD65313E5ED2600EED132 /* RTKSelectionHandleStart.png in Resources */,
+				9AEFD65413E5ED2600EED132 /* RTKSelectionLoupe.png in Resources */,
+				9AEFD65513E5ED2600EED132 /* RTKSelectionLoupeMask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +373,11 @@
 				9A8D99EA13E55A8E002255C3 /* N4TextRange.m in Sources */,
 				9A8D99ED13E55B5C002255C3 /* N4TextPosition.m in Sources */,
 				9A8D99F013E55DA2002255C3 /* N4LoupeView.m in Sources */,
+				9AEFD63B13E5EB4F00EED132 /* N4TextPositionHandleView.m in Sources */,
+				9AEFD63C13E5EB4F00EED132 /* N4CoreTextViewInternal.m in Sources */,
+				9AEFD63D13E5EB4F00EED132 /* N4CoreTextView.m in Sources */,
+				9AEFD64313E5ECC400EED132 /* NSRangeEntensions.m in Sources */,
+				9AEFD64413E5ECC400EED132 /* CALayer+helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +553,7 @@
 				9A8D99E313E54E1B002255C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A8D99E413E54E1B002255C3 /* Build configuration list for PBXNativeTarget "N4TextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +562,7 @@
 				9A8D99E613E54E1B002255C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

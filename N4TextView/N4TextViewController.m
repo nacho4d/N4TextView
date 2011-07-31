@@ -7,6 +7,7 @@
 //
 
 #import "N4TextViewController.h"
+#import "N4CoreTextView.h"
 
 @implementation N4TextViewController
 
@@ -20,13 +21,15 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	N4CoreTextView *textView = [[N4CoreTextView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 250)];
+	[self.view addSubview:textView];
+	[textView release];
+
 }
-*/
+
 
 - (void)viewDidUnload
 {
