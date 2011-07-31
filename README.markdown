@@ -1,4 +1,7 @@
 # N4TextView 
+
+**(on going project)**
+
 Another replacement for UITextView with support for NSAttributedString.
 
 **Aim of N4TextView (read: Why I made this?)**
