@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A8D99AE13E54E1A002255C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99AD13E54E1A002255C3 /* UIKit.framework */; };
+		9A8D99B013E54E1A002255C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99AF13E54E1A002255C3 /* Foundation.framework */; };
+		9A8D99B213E54E1A002255C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99B113E54E1A002255C3 /* CoreGraphics.framework */; };
+		9A8D99B813E54E1A002255C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D99B613E54E1A002255C3 /* InfoPlist.strings */; };
+		9A8D99BA13E54E1A002255C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99B913E54E1A002255C3 /* main.m */; };
+		9A8D99BE13E54E1A002255C3 /* N4TextViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99BD13E54E1A002255C3 /* N4TextViewAppDelegate.m */; };
+		9A8D99C113E54E1A002255C3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D99BF13E54E1A002255C3 /* MainWindow.xib */; };
+		9A8D99C413E54E1A002255C3 /* N4TextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99C313E54E1A002255C3 /* N4TextViewViewController.m */; };
+		9A8D99C713E54E1A002255C3 /* N4TextViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D99C513E54E1A002255C3 /* N4TextViewViewController.xib */; };
+		9A8D99CF13E54E1B002255C3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99CE13E54E1B002255C3 /* SenTestingKit.framework */; };
+		9A8D99D013E54E1B002255C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99AD13E54E1A002255C3 /* UIKit.framework */; };
+		9A8D99D113E54E1B002255C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99AF13E54E1A002255C3 /* Foundation.framework */; };
+		9A8D99D213E54E1B002255C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99B113E54E1A002255C3 /* CoreGraphics.framework */; };
+		9A8D99DA13E54E1B002255C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D99D813E54E1B002255C3 /* InfoPlist.strings */; };
+		9A8D99DC13E54E1B002255C3 /* N4TextViewTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D99DB13E54E1B002255C3 /* N4TextViewTests.h */; };
+		9A8D99DE13E54E1B002255C3 /* N4TextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99DD13E54E1B002255C3 /* N4TextViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8D99D313E54E1B002255C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8D99A013E54E1A002255C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8D99A813E54E1A002255C3;
+			remoteInfo = N4TextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A8D99A913E54E1A002255C3 /* N4TextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = N4TextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8D99AD13E54E1A002255C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A8D99AF13E54E1A002255C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A8D99B113E54E1A002255C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A8D99B513E54E1A002255C3 /* N4TextView-Info.plist */ = {isa = PBXFileReference; path = "N4TextView-Info.plist"; sourceTree = "<group>"; };
+		9A8D99B713E54E1A002255C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A8D99B913E54E1A002255C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A8D99BB13E54E1A002255C3 /* N4TextView-Prefix.pch */ = {isa = PBXFileReference; path = "N4TextView-Prefix.pch"; sourceTree = "<group>"; };
+		9A8D99BC13E54E1A002255C3 /* N4TextViewAppDelegate.h */ = {isa = PBXFileReference; path = N4TextViewAppDelegate.h; sourceTree = "<group>"; };
+		9A8D99BD13E54E1A002255C3 /* N4TextViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N4TextViewAppDelegate.m; sourceTree = "<group>"; };
+		9A8D99C013E54E1A002255C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9A8D99C213E54E1A002255C3 /* N4TextViewViewController.h */ = {isa = PBXFileReference; path = N4TextViewViewController.h; sourceTree = "<group>"; };
+		9A8D99C313E54E1A002255C3 /* N4TextViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N4TextViewViewController.m; sourceTree = "<group>"; };
+		9A8D99C613E54E1A002255C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/N4TextViewViewController.xib; sourceTree = "<group>"; };
+		9A8D99CD13E54E1B002255C3 /* N4TextViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = N4TextViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8D99CE13E54E1B002255C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9A8D99D713E54E1B002255C3 /* N4TextViewTests-Info.plist */ = {isa = PBXFileReference; path = "N4TextViewTests-Info.plist"; sourceTree = "<group>"; };
+		9A8D99D913E54E1B002255C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A8D99DB13E54E1B002255C3 /* N4TextViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N4TextViewTests.h; sourceTree = "<group>"; };
+		9A8D99DD13E54E1B002255C3 /* N4TextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N4TextViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A8D99A613E54E1A002255C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8D99AE13E54E1A002255C3 /* UIKit.framework in Frameworks */,
+				9A8D99B013E54E1A002255C3 /* Foundation.framework in Frameworks */,
+				9A8D99B213E54E1A002255C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8D99C913E54E1B002255C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8D99CF13E54E1B002255C3 /* SenTestingKit.framework in Frameworks */,
+				9A8D99D013E54E1B002255C3 /* UIKit.framework in Frameworks */,
+				9A8D99D113E54E1B002255C3 /* Foundation.framework in Frameworks */,
+				9A8D99D213E54E1B002255C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A8D999E13E54E1A002255C3 = {
+			isa = PBXGroup;
+			children = (
+				9A8D99B313E54E1A002255C3 /* N4TextView */,
+				9A8D99D513E54E1B002255C3 /* N4TextViewTests */,
+				9A8D99AC13E54E1A002255C3 /* Frameworks */,
+				9A8D99AA13E54E1A002255C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8D99AA13E54E1A002255C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D99A913E54E1A002255C3 /* N4TextView.app */,
+				9A8D99CD13E54E1B002255C3 /* N4TextViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A8D99AC13E54E1A002255C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D99AD13E54E1A002255C3 /* UIKit.framework */,
+				9A8D99AF13E54E1A002255C3 /* Foundation.framework */,
+				9A8D99B113E54E1A002255C3 /* CoreGraphics.framework */,
+				9A8D99CE13E54E1B002255C3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A8D99B313E54E1A002255C3 /* N4TextView */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D99BC13E54E1A002255C3 /* N4TextViewAppDelegate.h */,
+				9A8D99BD13E54E1A002255C3 /* N4TextViewAppDelegate.m */,
+				9A8D99BF13E54E1A002255C3 /* MainWindow.xib */,
+				9A8D99C213E54E1A002255C3 /* N4TextViewViewController.h */,
+				9A8D99C313E54E1A002255C3 /* N4TextViewViewController.m */,
+				9A8D99C513E54E1A002255C3 /* N4TextViewViewController.xib */,
+				9A8D99B413E54E1A002255C3 /* Supporting Files */,
+			);
+			path = N4TextView;
+			sourceTree = "<group>";
+		};
+		9A8D99B413E54E1A002255C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D99B513E54E1A002255C3 /* N4TextView-Info.plist */,
+				9A8D99B613E54E1A002255C3 /* InfoPlist.strings */,
+				9A8D99B913E54E1A002255C3 /* main.m */,
+				9A8D99BB13E54E1A002255C3 /* N4TextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A8D99D513E54E1B002255C3 /* N4TextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D99DB13E54E1B002255C3 /* N4TextViewTests.h */,
+				9A8D99DD13E54E1B002255C3 /* N4TextViewTests.m */,
+				9A8D99D613E54E1B002255C3 /* Supporting Files */,
+			);
+			path = N4TextViewTests;
+			sourceTree = "<group>";
+		};
+		9A8D99D613E54E1B002255C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D99D713E54E1B002255C3 /* N4TextViewTests-Info.plist */,
+				9A8D99D813E54E1B002255C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A8D99A813E54E1A002255C3 /* N4TextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8D99E113E54E1B002255C3 /* Build configuration list for PBXNativeTarget "N4TextView" */;
+			buildPhases = (
+				9A8D99A513E54E1A002255C3 /* Sources */,
+				9A8D99A613E54E1A002255C3 /* Frameworks */,
+				9A8D99A713E54E1A002255C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = N4TextView;
+			productName = N4TextView;
+			productReference = 9A8D99A913E54E1A002255C3 /* N4TextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A8D99CC13E54E1B002255C3 /* N4TextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8D99E413E54E1B002255C3 /* Build configuration list for PBXNativeTarget "N4TextViewTests" */;
+			buildPhases = (
+				9A8D99C813E54E1B002255C3 /* Sources */,
+				9A8D99C913E54E1B002255C3 /* Frameworks */,
+				9A8D99CA13E54E1B002255C3 /* Resources */,
+				9A8D99CB13E54E1B002255C3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8D99D413E54E1B002255C3 /* PBXTargetDependency */,
+			);
+			name = N4TextViewTests;
+			productName = N4TextViewTests;
+			productReference = 9A8D99CD13E54E1B002255C3 /* N4TextViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A8D99A013E54E1A002255C3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9A8D99A313E54E1A002255C3 /* Build configuration list for PBXProject "N4TextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A8D999E13E54E1A002255C3;
+			productRefGroup = 9A8D99AA13E54E1A002255C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8D99A813E54E1A002255C3 /* N4TextView */,
+				9A8D99CC13E54E1B002255C3 /* N4TextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A8D99A713E54E1A002255C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8D99B813E54E1A002255C3 /* InfoPlist.strings in Resources */,
+				9A8D99C113E54E1A002255C3 /* MainWindow.xib in Resources */,
+				9A8D99C713E54E1A002255C3 /* N4TextViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8D99CA13E54E1B002255C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8D99DA13E54E1B002255C3 /* InfoPlist.strings in Resources */,
+				9A8D99DC13E54E1B002255C3 /* N4TextViewTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A8D99CB13E54E1B002255C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A8D99A513E54E1A002255C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8D99BA13E54E1A002255C3 /* main.m in Sources */,
+				9A8D99BE13E54E1A002255C3 /* N4TextViewAppDelegate.m in Sources */,
+				9A8D99C413E54E1A002255C3 /* N4TextViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8D99C813E54E1B002255C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8D99DE13E54E1B002255C3 /* N4TextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A8D99D413E54E1B002255C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8D99A813E54E1A002255C3 /* N4TextView */;
+			targetProxy = 9A8D99D313E54E1B002255C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A8D99B613E54E1A002255C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8D99B713E54E1A002255C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A8D99BF13E54E1A002255C3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8D99C013E54E1A002255C3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9A8D99C513E54E1A002255C3 /* N4TextViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8D99C613E54E1A002255C3 /* en */,
+			);
+			name = N4TextViewViewController.xib;
+			sourceTree = "<group>";
+		};
+		9A8D99D813E54E1B002255C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8D99D913E54E1B002255C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A8D99DF13E54E1B002255C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A8D99E013E54E1B002255C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A8D99E213E54E1B002255C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N4TextView/N4TextView-Prefix.pch";
+				INFOPLIST_FILE = "N4TextView/N4TextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A8D99E313E54E1B002255C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N4TextView/N4TextView-Prefix.pch";
+				INFOPLIST_FILE = "N4TextView/N4TextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9A8D99E513E54E1B002255C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/N4TextView.app/N4TextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N4TextView/N4TextView-Prefix.pch";
+				INFOPLIST_FILE = "N4TextViewTests/N4TextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9A8D99E613E54E1B002255C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/N4TextView.app/N4TextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N4TextView/N4TextView-Prefix.pch";
+				INFOPLIST_FILE = "N4TextViewTests/N4TextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A8D99A313E54E1A002255C3 /* Build configuration list for PBXProject "N4TextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8D99DF13E54E1B002255C3 /* Debug */,
+				9A8D99E013E54E1B002255C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8D99E113E54E1B002255C3 /* Build configuration list for PBXNativeTarget "N4TextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8D99E213E54E1B002255C3 /* Debug */,
+				9A8D99E313E54E1B002255C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A8D99E413E54E1B002255C3 /* Build configuration list for PBXNativeTarget "N4TextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8D99E513E54E1B002255C3 /* Debug */,
+				9A8D99E613E54E1B002255C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A8D99A013E54E1A002255C3 /* Project object */;
+}
