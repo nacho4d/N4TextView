@@ -3,14 +3,14 @@
 //  N4TextView
 //
 //  Created by Enriquez Guillermo on 7/31/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 nacho4d. All rights reserved.
 //
 
-#import "N4TextViewAppDelegate.h"
+#import "AppDelegate.h"
 
-#import "N4TextViewViewController.h"
+#import "N4TextViewController.h"
 
-@implementation N4TextViewAppDelegate
+@implementation AppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;

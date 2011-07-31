@@ -12,10 +12,10 @@
 		9A8D99B213E54E1A002255C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99B113E54E1A002255C3 /* CoreGraphics.framework */; };
 		9A8D99B813E54E1A002255C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D99B613E54E1A002255C3 /* InfoPlist.strings */; };
 		9A8D99BA13E54E1A002255C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99B913E54E1A002255C3 /* main.m */; };
-		9A8D99BE13E54E1A002255C3 /* N4TextViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99BD13E54E1A002255C3 /* N4TextViewAppDelegate.m */; };
+		9A8D99BE13E54E1A002255C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99BD13E54E1A002255C3 /* AppDelegate.m */; };
 		9A8D99C113E54E1A002255C3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D99BF13E54E1A002255C3 /* MainWindow.xib */; };
-		9A8D99C413E54E1A002255C3 /* N4TextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99C313E54E1A002255C3 /* N4TextViewViewController.m */; };
-		9A8D99C713E54E1A002255C3 /* N4TextViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D99C513E54E1A002255C3 /* N4TextViewViewController.xib */; };
+		9A8D99C413E54E1A002255C3 /* N4TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D99C313E54E1A002255C3 /* N4TextViewController.m */; };
+		9A8D99C713E54E1A002255C3 /* N4TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D99C513E54E1A002255C3 /* N4TextViewController.xib */; };
 		9A8D99CF13E54E1B002255C3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99CE13E54E1B002255C3 /* SenTestingKit.framework */; };
 		9A8D99D013E54E1B002255C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99AD13E54E1A002255C3 /* UIKit.framework */; };
 		9A8D99D113E54E1B002255C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D99AF13E54E1A002255C3 /* Foundation.framework */; };
@@ -40,19 +40,19 @@
 		9A8D99AD13E54E1A002255C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9A8D99AF13E54E1A002255C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A8D99B113E54E1A002255C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9A8D99B513E54E1A002255C3 /* N4TextView-Info.plist */ = {isa = PBXFileReference; path = "N4TextView-Info.plist"; sourceTree = "<group>"; };
+		9A8D99B513E54E1A002255C3 /* N4TextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "N4TextView-Info.plist"; sourceTree = "<group>"; };
 		9A8D99B713E54E1A002255C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A8D99B913E54E1A002255C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A8D99BB13E54E1A002255C3 /* N4TextView-Prefix.pch */ = {isa = PBXFileReference; path = "N4TextView-Prefix.pch"; sourceTree = "<group>"; };
-		9A8D99BC13E54E1A002255C3 /* N4TextViewAppDelegate.h */ = {isa = PBXFileReference; path = N4TextViewAppDelegate.h; sourceTree = "<group>"; };
-		9A8D99BD13E54E1A002255C3 /* N4TextViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N4TextViewAppDelegate.m; sourceTree = "<group>"; };
+		9A8D99BB13E54E1A002255C3 /* N4TextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "N4TextView-Prefix.pch"; sourceTree = "<group>"; };
+		9A8D99BC13E54E1A002255C3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A8D99BD13E54E1A002255C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9A8D99C013E54E1A002255C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		9A8D99C213E54E1A002255C3 /* N4TextViewViewController.h */ = {isa = PBXFileReference; path = N4TextViewViewController.h; sourceTree = "<group>"; };
-		9A8D99C313E54E1A002255C3 /* N4TextViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N4TextViewViewController.m; sourceTree = "<group>"; };
-		9A8D99C613E54E1A002255C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/N4TextViewViewController.xib; sourceTree = "<group>"; };
+		9A8D99C213E54E1A002255C3 /* N4TextViewController.h */ = {isa = PBXFileReference; path = N4TextViewController.h; sourceTree = "<group>"; };
+		9A8D99C313E54E1A002255C3 /* N4TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N4TextViewController.m; sourceTree = "<group>"; };
+		9A8D99C613E54E1A002255C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/N4TextViewController.xib; sourceTree = "<group>"; };
 		9A8D99CD13E54E1B002255C3 /* N4TextViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = N4TextViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8D99CE13E54E1B002255C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9A8D99D713E54E1B002255C3 /* N4TextViewTests-Info.plist */ = {isa = PBXFileReference; path = "N4TextViewTests-Info.plist"; sourceTree = "<group>"; };
+		9A8D99D713E54E1B002255C3 /* N4TextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "N4TextViewTests-Info.plist"; sourceTree = "<group>"; };
 		9A8D99D913E54E1B002255C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A8D99DB13E54E1B002255C3 /* N4TextViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N4TextViewTests.h; sourceTree = "<group>"; };
 		9A8D99DD13E54E1B002255C3 /* N4TextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N4TextViewTests.m; sourceTree = "<group>"; };
@@ -116,12 +116,12 @@
 		9A8D99B313E54E1A002255C3 /* N4TextView */ = {
 			isa = PBXGroup;
 			children = (
-				9A8D99BC13E54E1A002255C3 /* N4TextViewAppDelegate.h */,
-				9A8D99BD13E54E1A002255C3 /* N4TextViewAppDelegate.m */,
+				9A8D99BC13E54E1A002255C3 /* AppDelegate.h */,
+				9A8D99BD13E54E1A002255C3 /* AppDelegate.m */,
 				9A8D99BF13E54E1A002255C3 /* MainWindow.xib */,
-				9A8D99C213E54E1A002255C3 /* N4TextViewViewController.h */,
-				9A8D99C313E54E1A002255C3 /* N4TextViewViewController.m */,
-				9A8D99C513E54E1A002255C3 /* N4TextViewViewController.xib */,
+				9A8D99C213E54E1A002255C3 /* N4TextViewController.h */,
+				9A8D99C313E54E1A002255C3 /* N4TextViewController.m */,
+				9A8D99C513E54E1A002255C3 /* N4TextViewController.xib */,
 				9A8D99B413E54E1A002255C3 /* Supporting Files */,
 			);
 			path = N4TextView;
@@ -226,7 +226,7 @@
 			files = (
 				9A8D99B813E54E1A002255C3 /* InfoPlist.strings in Resources */,
 				9A8D99C113E54E1A002255C3 /* MainWindow.xib in Resources */,
-				9A8D99C713E54E1A002255C3 /* N4TextViewViewController.xib in Resources */,
+				9A8D99C713E54E1A002255C3 /* N4TextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8D99BA13E54E1A002255C3 /* main.m in Sources */,
-				9A8D99BE13E54E1A002255C3 /* N4TextViewAppDelegate.m in Sources */,
-				9A8D99C413E54E1A002255C3 /* N4TextViewViewController.m in Sources */,
+				9A8D99BE13E54E1A002255C3 /* AppDelegate.m in Sources */,
+				9A8D99C413E54E1A002255C3 /* N4TextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +303,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		9A8D99C513E54E1A002255C3 /* N4TextViewViewController.xib */ = {
+		9A8D99C513E54E1A002255C3 /* N4TextViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9A8D99C613E54E1A002255C3 /* en */,
 			);
-			name = N4TextViewViewController.xib;
+			name = N4TextViewController.xib;
 			sourceTree = "<group>";
 		};
 		9A8D99D813E54E1B002255C3 /* InfoPlist.strings */ = {
