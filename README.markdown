@@ -1,7 +1,7 @@
 # N4TextView 
 Another replacement for UITextView with support for NSAttributedString.
 
-*Aim of N4TextView (read: Why I made this?)*
+**Aim of N4TextView (read: Why I made this?)**
 
 Because all other UITextView-like implementations don't fully support multi stage input languages like Japanese, etc.
 N4TextView does!. Furthermore, I plan to improve it to support right-to-left languages like Arabian, etc.
