@@ -7,8 +7,10 @@ Because all other UITextView-like implementations don't fully support multi stag
 N4TextView does!. Furthermore, I plan to improve it to support right-to-left languages like Arabian, etc.
 
 This implementation is based on two projects:
- - [iPhone-OS-RichtTextKit][1]: Written by [iamamused][2]
- - BYTextInputTest : A sample an Apple Engineer kindly brought me long time ago :)
+
+- [iPhone-OS-RichtTextKit][1]: Written by [iamamused][2]
+- BYTextInputTest : A sample an Apple Engineer kindly brought me long time ago :)
+
 
 [1]:https://github.com/iamamused/iPhone-OS-RTFKit
 [2]:http://jeffreysambells.com/
