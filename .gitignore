@@ -1,0 +1,3 @@
+#Ignore Xcode user specific data
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
